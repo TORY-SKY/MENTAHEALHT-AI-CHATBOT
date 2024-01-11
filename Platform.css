@@ -23,8 +23,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
-    position: relative
+    position: relative;
+    
 }
+.Header{
+    animation: floatIn 0.5s ease-in-out;
+}
+@keyframes floatIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 .DroppDownMenuu ul li a{
     font-family: 'Nova Square', sans-serif;
     font-family: 'Orbitron', sans-serif;
@@ -91,17 +105,22 @@ gap: 4rem;
 }
 .ContactInfoBtn{
     position: absolute;
+    width: 100%;
     bottom: 0;
     right: 0;
-    background-color: #fff;
+    
+    border-radius: 77.125rem;
+    display: flex;
+    align-items: center;
 }
 .ButtonContainer{
     display: flex;
+    align-items: center;
     padding: 0.5rem;
     align-items: flex-start;
     gap: 0.75rem;
     border-radius: 77.125rem;
-    
+    background-color: #fff;
     max-width: fit-content;
     margin-bottom: 12px;
     
@@ -129,6 +148,9 @@ gap: 4rem;
     border-radius: 77.125rem;
 
 
+}
+.handBugerMenu:hover .DroppDownMenuu{
+    display: none;
 }
 
 /* NAVITATION BAR DESIGN */
@@ -1162,4 +1184,25 @@ background-color: rgba(254, 129, 75, 0.136);
 .QuestionSuggetions{
     display: none;
 }
+
+/* Dropdown menu */
+.ContactInfoBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.TermsCond{
+    display: none;
+}
+.ButtonContainer{
+    flex-direction: column;
+    border-radius: 2.5rem;
+    width: 100%;
+}
+/* Dropdown menu */
+
+
+
 }
