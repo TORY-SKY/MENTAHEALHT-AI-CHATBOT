@@ -12,7 +12,7 @@
 .Header{
     background-color: rgba(75, 52, 37, 1);
     background-image: url('images/BG\ \(2\).png');
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,6 +23,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
+    position: relative
 }
 .DroppDownMenuu ul li a{
     font-family: 'Nova Square', sans-serif;
@@ -45,6 +46,8 @@
 }
 .navigationBarr{
     border-bottom: 30px;
+    background-color: rgba(247, 244, 242, 1);
+    border-radius: 77.125rem;
 
 }
 .TermsCond{
@@ -62,20 +65,72 @@ text-transform: uppercase;
 color: #fff;
 }
 
-.TERMSANDCONDITIONDROPDOW h4{
+.TERMSANDCONDITIONDROPDOW h2{
     font-family: Urbanist;
 font-size: 2.25rem;
 font-style: normal;
 font-weight: 500;
 line-height: 2.75rem; /* 122.222% */
 letter-spacing: -0.0675rem;
-text-transform: lowercase;
+text-transform:lowercase;
 gap: 4rem;
 }
 .ContactInfo{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    
 }
+.ContactInfo h4{
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 2rem */
+    letter-spacing: -0.0125rem;
+}
+.ContactInfoBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+}
+.ButtonContainer{
+    display: flex;
+    padding: 0.5rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+    border-radius: 77.125rem;
+    
+    max-width: fit-content;
+    margin-bottom: 12px;
+    
+}
+.ButtonContainer button{
+    border-radius: 77.125rem;
+    border: none;
+    outline: none;
+    display: flex;
+    height: 4rem;
+    padding: 1rem 0.5rem 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.ButtonContainer button:first-child{
+    background-color: rgba(254, 129, 75, 1);
+}
+.ButtonContainer button:last-child{
+    background-color: rgba(155, 176, 104, 1);
+}
+.ButtonContainer button span{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 77.125rem;
+
+
+}
+
 /* NAVITATION BAR DESIGN */
 
 :root{
@@ -784,6 +839,7 @@ background-color: rgba(254, 129, 75, 0.136);
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .DroppDownMenuu ul li{
         display: flex;
@@ -793,6 +849,8 @@ background-color: rgba(254, 129, 75, 0.136);
     .DroppDownMenuu ul li:hover{
 
     }
+   
+    
     .PlatformLandingPage{
         display: flex;
         flex-direction: column;
