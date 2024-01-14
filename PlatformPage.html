@@ -19,7 +19,6 @@
 
 </head>
 <body>
-   <header class="Header">
     <nav class="navigationBarr  px-2">
         <div class="callMAILLogo mx-2 d-flex align-items-center">
             <span class=" ">
@@ -49,8 +48,10 @@
               </span>
            </div>
     </nav>
-    <div class="container DroppDownMenuu my-5">
-        <div class="listss">
+   <header class="Header ">
+   
+    <div class="container DroppDownMenuu  TheDropDownMenuContent ">
+        <div class="listss mt-5">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Plaform</a></li>
@@ -61,7 +62,7 @@
             </ul>
             
         </div>
-        <div class="TermsCond container">
+        <div class="TermsCond container mt-5">
             <div class="container TERMSANDCONDITIONDROPDOW">
                 <p class="">TERMS & CONDITIONS <span>brown dot here</span> PRIVACY POLICY</p>
             <h2 class="my-5">HARNESSING THE POWER OF AI TO REVOLUTIONIZE MENTAL HEALTH</h2>
@@ -758,26 +759,26 @@ faqs.forEach(faq => faq.addEventListener('click', ()=>{
     faq.classList.toggle("active");
     
 }));
-    const Toggle = document.getElementsByClassName(".ToggleBtn");
-    function ToggleFunction(){
-        Toggle.classList.toggle('move');
-    }
-    let Handburgermenu = document.querySelector('.handBugerMenu');
-let DropdownMeu = document.querySelector('.MenuDrop');
+    // const Toggle = document.getElementsByClassName(".ToggleBtn");
+    // function ToggleFunction(){
+    //     Toggle.classList.toggle('move');
+    // }
+//     let Handburgermenu = document.querySelector('.handBugerMenu');
+// let DropdownMeu = document.querySelector('.MenuDrop');
 
   
 //HANDBURGER MENU
-Handburgermenu.addEventListener('click', (e)=>{
-if(DropdownMeu.style.display == "none"){
-  DropdownMeu.style.display = "block";
-  DropdownMeu.style.top = "0";
-}else{
-  DropdownMeu.style.display = 'none';
-  DropdownMeu.style.top = "-100%";
+// Handburgermenu.addEventListener('click', (e)=>{
+// if(DropdownMeu.style.display == "none"){
+//   DropdownMeu.style.display = "block";
+//   DropdownMeu.style.top = "0";
+// }else{
+//   DropdownMeu.style.display = 'none';
+//   DropdownMeu.style.top = "-100%";
 
-  console.log(e.target.key)
-}
-});
+//   console.log(e.target.key)
+// }
+// });
     </script>
 
 

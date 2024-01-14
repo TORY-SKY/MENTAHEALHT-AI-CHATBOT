@@ -5,12 +5,12 @@
 // alert("hello world");
 let header = document.querySelector('.Header');
 let menu = document.querySelector('.Menu');
-let dropDownContent = document.querySelector('.DroppDownMenuu');
+
 let clickCount  = 0;
-menu.addEventListener('click', ()=>{
-    if(dropDownContent.style.display === "flex"){
-        dropDownContent.style.display = "none";
-    }else{
-        dropDownContent.style.display = 'block';
-    }
-});
+
+const TheDropDownMenuContent = document.querySelector('.TheDropDownMenuContent');
+
+menu.addEventListener('click', function(){
+    TheDropDownMenuContent.classList.toggle("menuAnime");
+})
+alert("menu");

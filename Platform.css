@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* NAVITATION BAR DESIGN */
 .navigationBarr{
     display: flex;
@@ -15,10 +16,20 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
 }
-.TermsCond{
-    
+.Header .menuAnime{
+    animation: Slide-in-out;
+    display: none;
+    transform: translateY(0);
 }
+
+/* .navigationBarr {
+    position: absolute;
+    max-width: 100%;
+    z-index: 2;
+} */
 .DroppDownMenuu{
     display: grid;
     grid-template-columns: 1fr 1fr;
