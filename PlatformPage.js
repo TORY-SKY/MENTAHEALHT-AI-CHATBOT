@@ -1,15 +1,25 @@
-// const faqs = document.querySelectorAll('.faq');
-// faqs.forEach(faq => faq.addEventListener('click', ()=>{
-//     faq.classList.toggle('active');
-// }));
-// alert("hello world");
-let header = document.querySelector('.Header');
-let menu = document.querySelector('.Menu');
 
-let clickCount  = 0;
 
-const TheDropDownMenuContent = document.querySelector('.TheDropDownMenuContent');
 
+/*ACCORDION FOR FREQENTLY ASKED QUESIONS */
+const faqs = document.querySelectorAll(".faq");
+        
+faqs.forEach(faq => faq.addEventListener('click', ()=>{
+    faq.classList.toggle("active");
+    
+}));
+/*ACCORDION FOR FREQENTLY ASKED QUESIONS */
+
+
+
+let headerr = document.querySelector('.DropdownContainer');
+
+
+const menu = document.querySelector('.Menu');
 menu.addEventListener('click', function(){
-    TheDropDownMenuContent.classList.toggle("menuAnime");
-})
+    if(headerr.style.display == "none"){
+        headerr.style.display = "block";
+    }else{
+        headerr.style.display = "none";
+    }
+});
