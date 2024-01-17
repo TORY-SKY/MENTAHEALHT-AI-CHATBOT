@@ -13,4 +13,3 @@ const TheDropDownMenuContent = document.querySelector('.TheDropDownMenuContent')
 menu.addEventListener('click', function(){
     TheDropDownMenuContent.classList.toggle("menuAnime");
 })
-alert("menu");

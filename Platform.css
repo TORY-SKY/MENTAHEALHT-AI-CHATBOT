@@ -20,8 +20,6 @@
     transition: transform 0.3s ease-in-out;
 }
 .Header .menuAnime{
-    animation: Slide-in-out;
-    display: none;
     transform: translateY(0);
 }
 
