@@ -866,6 +866,65 @@ background-color: rgba(254, 129, 75, 0.136);
 }
 /* Customer comments */
 
+/* FOOTER */
+.FOoterDiv{
+    background-color: rgba(75, 52, 37, 1);
+}
+.LEFTRIGHT{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.FOOTERDIV{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.Leftside{
+   
+}
+.Leftside p{
+    width: 400px;
+    font-size: 1.5rem;
+}
+.bottresser{
+    width: 300px;
+}
+.Rightside{
+   margin-left: auto;
+   position: relative;
+}
+.Rightside .DroppDownMenuu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.listss ul{
+    direction: rtl;
+}
+.THESOCIALS{
+    display: flex;
+}
+.THESOCIALS span{
+    margin-right: 1rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 12px;
+    transition: .3s;
+    
+}
+.THESOCIALS span svg{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.THESOCIALS span:hover{
+    background-color: rgba(254, 129, 75, 1);
+    color: white;
+}
+/* FOOTER */
 
 @media only screen and (max-width: 767px){
     
@@ -1215,6 +1274,15 @@ background-color: rgba(254, 129, 75, 0.136);
 }
 /* Dropdown menu */
 
-
-
+/* FOOTER */
+.Rside ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.Rside ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
