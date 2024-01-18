@@ -887,17 +887,22 @@ background-color: rgba(254, 129, 75, 0.136);
     width: 400px;
     font-size: 1.5rem;
 }
+.Leftside h1{
+    display: flex;
+}
+.Leftside h1 svg{
+    margin-right: 12px;
+}
 .bottresser{
     width: 300px;
 }
 .Rightside{
-   margin-left: auto;
+   
    position: relative;
 }
 .Rightside .DroppDownMenuu{
-    position: absolute;
-    top: 0;
-    right: 0;
+    
+    
 }
 .listss ul{
     direction: rtl;
@@ -1275,6 +1280,47 @@ background-color: rgba(254, 129, 75, 0.136);
 /* Dropdown menu */
 
 /* FOOTER */
+
+.FOOTERDIV .LEFTRIGHT{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LEFTRIGHT .Leftside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Leftside p{
+    padding: 12px 30px;
+}
+.THESOCIALS{
+    margin: 12px auto;
+}
+.bottresser span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.FOOTERDIV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Rightside{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.DroppDownMenuu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px auto;
+}
 .Rside ul li a{
     font-size: 2rem;
     text-decoration: none;
