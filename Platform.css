@@ -588,6 +588,7 @@ max-width: 100%;
 /* SECTION 9 */
 .Section9{
     background-color: rgba(155, 176, 104, 1);
+    border-radius: 30px;
 
 }
 .OurPricing{
@@ -681,6 +682,7 @@ background-color: rgba(254, 129, 75, 0.136);
 /* section With Iphone */
 .SectionTen{
     background-color: rgba(247, 244, 242, 1);
+    border-radius: 30px;
 }
 .Phonetext{
     display: flex;
@@ -727,6 +729,9 @@ background-color: rgba(254, 129, 75, 0.136);
 }
 
  /* ACCORDION */
+ .Accordion{
+    border-radius: 30px;
+ }
 
  .faq {
     margin-top: 2rem;
@@ -869,6 +874,7 @@ background-color: rgba(254, 129, 75, 0.136);
 /* FOOTER */
 .FOoterDiv{
     background-color: rgba(75, 52, 37, 1);
+    border-radius: 30px;
 }
 .LEFTRIGHT{
     display: flex;
@@ -900,12 +906,13 @@ background-color: rgba(254, 129, 75, 0.136);
    
    position: relative;
 }
-.Rightside .DroppDownMenuu{
-    
-    
-}
-.listss ul{
+.Rightside .listss{
     direction: rtl;
+    display: flex;
+    align-items: flex-end;
+}
+.Rightside .TheDropDownMenuContent{
+    display: flex;
 }
 .THESOCIALS{
     display: flex;

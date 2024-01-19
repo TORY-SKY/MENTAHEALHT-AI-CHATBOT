@@ -17,9 +17,9 @@ let headerr = document.querySelector('.DropdownContainer');
 
 const menu = document.querySelector('.Menu');
 menu.addEventListener('click', function(){
-    if(headerr.style.display == "none"){
-        headerr.style.display = "block";
-    }else{
+    if(headerr.style.display == "block"){
         headerr.style.display = "none";
+    }else{
+        headerr.style.display = "block";
     }
 });
