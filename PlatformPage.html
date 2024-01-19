@@ -506,7 +506,7 @@
               <div class="PricingPlans my-3">
                 <p class="mx-1">YEARLY</p>
                 <div class="ToggleBtn">
-                    <i class="label"></i>
+                    <i class="label toggleLabel"></i>
                 </div>
                 <p class="mx-1">MONTHLY</p>
               </div>
@@ -832,35 +832,16 @@
    
     <footer class="TestingPerspective">
 
-        <div class="PersContainer">
-            <div class="box">
-                <h1>HELLO WORLD</h1>
-            </div>
+        <div class="toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="toggleSwitch">
+                <span class="slider"></span>
+            </label>
+            <span class="mode-label">Light Mode</span>
         </div>
     </footer>
 <style>
-    .TestingPerspective{
-        width: 100vw;
-        height: 100vh;
-        background-color: bisque;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .PersContainer{
-        position: relative;
-        perspective: 1000px;
-    }
-    .TestingPerspective .box{
-        transition: .3s;
-        
-        width: 300px;
-        height: 200px;
-        background-color: rgb(241, 243, 230);
-    }
-    .TestingPerspective .box:hover{
-        transform: rotateY(120deg);
-    }
+  
 </style>
     <script >
         document.addEventListener("DOMContentLoaded", function(){

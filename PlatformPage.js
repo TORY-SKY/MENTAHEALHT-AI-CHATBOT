@@ -11,7 +11,7 @@ faqs.forEach(faq => faq.addEventListener('click', ()=>{
 /*ACCORDION FOR FREQENTLY ASKED QUESIONS */
 
 
-
+// dropdown menu javaScript
 let headerr = document.querySelector('.DropdownContainer');
 
 
@@ -23,3 +23,21 @@ menu.addEventListener('click', function(){
         headerr.style.display = "block";
     }
 });
+
+// Toggle button
+const isToggle = true;
+const toggler = document.querySelector('.toggleLabel');
+const currentRight = window.getComputedStyle(toggler).right;
+toggler.addEventListener('click', function(){
+    if(currentRight == "1px" ){
+        toggler.style.right = "48px";
+    }
+    isToggle = false;
+    
+})
+alert(isToggle);
+if(!isToggle){
+    alert(isToggle);
+}else{
+    alert(isToggle)
+}
