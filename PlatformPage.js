@@ -35,9 +35,6 @@ toggler.addEventListener('click', function(){
     isToggle = false;
     
 })
-alert(isToggle);
-if(!isToggle){
-    alert(isToggle);
-}else{
-    alert(isToggle)
-}
+setTimeout(3000, function(){
+    toggler.style.top = "1000px";
+})
